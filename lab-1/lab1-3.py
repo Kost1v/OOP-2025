@@ -72,13 +72,13 @@ if __name__ == "__main__":
 # dog.sleep() 
 
 # TASK 3
-# animals = [
-#   Dog("Rex", 6),
-#   Cat("Buddy", 2),
-#   Dog("Jota", 9),
-#   Cat("Dona", 4),
-# ]
+animals = [
+  Dog("Rex", 6),
+  Cat("Buddy", 2),
+  Dog("Jota", 9),
+  Cat("Dona", 4),
+]
 
-# for animal in animals:
-#   animal.make_sound()
-#   animal.get_name()
+for animal in animals:
+  animal.make_sound()
+  animal.get_name()
